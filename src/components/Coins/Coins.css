@@ -1,0 +1,12 @@
+.coins_table_header > th {
+    padding: 10px 20px;
+}
+
+.coins_table {
+    border: 3px solid #ccc
+}
+
+.coins_table_content {
+    text-align: center;
+
+}
