@@ -1,12 +1,38 @@
-.coins_table_header > th {
-    padding: 10px 20px;
+.coins_search {
+    margin: auto;
+    width: 100%;
+}
+
+.coins_table_container {
+    display: flex;
+    flex-direction: column;
 }
 
 .coins_table {
-    border: 3px solid #ccc
+    border-collapse: separate;
+    border-spacing: 0 30px;
+    min-width: 375px;
+    max-width: 95vw;
+    font-size: 1em;
+    margin: auto;
+    border-radius: 3px;
 }
 
-.coins_table_content {
-    text-align: center;
+.coins_table thead tr th{
+    text-align: left;
+    background-color: black;
+    color: azure;
+    padding: 1em;
 
+}
+
+.coins_table th,
+.coins_table td {
+    padding: 1em;
+
+}
+
+
+.coins_table tbody tr:hover{
+    background-color: blueviolet;
 }
